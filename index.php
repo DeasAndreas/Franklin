@@ -1,9 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: deas
- * Date: 09/04/2018
- * Time: 15:11
- */
 
 echo "<h1>coucou</h1>";
+
+
+$message = "<ul>";
+for ($i = -17827 ; $i <= 14558 ; $i += 7) {
+    $message = "<li>";
+    $message = $i ;
+    $message = "</li>";
+}
+$message = "</ul>";
+
+
+echo $message;
